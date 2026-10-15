@@ -55,6 +55,7 @@ Donald Knuth: *"We should forget about small efficiencies, say about 97% of the 
 - [clean-code-examples.md](clean-code-examples.md) — Before/after examples of guard clauses, naming, and extraction.
 - [modern-practices.md](modern-practices.md) — AI-assisted development, architecture patterns, and CI/CD overview.
 - [testing-guide.md](testing-guide.md) — Testing pyramid, unit/integration/E2E, TDD, and anti-patterns.
+- [advanced-testing.md](advanced-testing.md) — Property-based testing, mutation testing, and contracts.
 - [security-checklist.md](security-checklist.md) — OWASP-aligned secure coding checklist.
 - [security-patterns.md](security-patterns.md) — Injection, XSS, CSRF, and access-control patterns with defenses.
 - [profiling-and-optimization.md](profiling-and-optimization.md) — Profiling tools, measurement process, and optimization guidance.
@@ -74,6 +75,8 @@ Donald Knuth: *"We should forget about small efficiencies, say about 97% of the 
 - [event-driven.md](event-driven.md) — When to use events, outbox, idempotency, and pitfalls.
 - [git-workflow.md](git-workflow.md) — Trunk-based, GitHub Flow, GitFlow, and when to use each.
 - [feature-flags.md](feature-flags.md) — Types, practices, and cleanup.
+- [resilience-patterns.md](resilience-patterns.md) — Timeouts, retries, circuit breakers, bulkheads, and composition.
+- [technical-debt.md](technical-debt.md) — Inventory, prioritization by interest, and standing paydown budget.
 
 ## Resources
 
