@@ -43,10 +43,13 @@ Donald Knuth: *"We should forget about small efficiencies, say about 97% of the 
 - Document *why* (trade-offs, constraints), not just *what*.
 - Modular design and observability.
 
-## Additional Guides
+## Guides
 
 - [principles.md](principles.md) — Expanded explanations of the core principles.
-- [modern-practices.md](modern-practices.md) — AI-assisted development, testing strategies, profiling tools, secure coding (OWASP), architecture patterns, and CI/CD.
+- [modern-practices.md](modern-practices.md) — AI-assisted development, architecture patterns, and CI/CD overview.
+- [testing-guide.md](testing-guide.md) — Testing pyramid, unit/integration/E2E, TDD, and anti-patterns.
+- [security-checklist.md](security-checklist.md) — OWASP-aligned secure coding checklist.
+- [profiling-and-optimization.md](profiling-and-optimization.md) — Profiling tools, measurement process, and optimization guidance.
 
 ## Resources
 
