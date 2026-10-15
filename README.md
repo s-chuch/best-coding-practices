@@ -55,6 +55,10 @@ Donald Knuth: *"We should forget about small efficiencies, say about 97% of the 
 - [refactoring.md](refactoring.md) — Common techniques and a safe process.
 - [concurrency.md](concurrency.md) — Concurrency vs parallelism, models, and safety.
 - [database-practices.md](database-practices.md) — Indexing, query habits, and schema guidance.
+- [api-design.md](api-design.md) — Resource-oriented REST design, versioning, idempotency, and errors.
+- [supply-chain-and-dependencies.md](supply-chain-and-dependencies.md) — Lockfiles, SBOMs, provenance, and continuous monitoring.
+- [observability.md](observability.md) — Logs, metrics, traces, and the four golden signals.
+- [documentation.md](documentation.md) — READMEs, ADRs, and docs-as-code.
 
 ## Resources
 
@@ -64,6 +68,7 @@ Donald Knuth: *"We should forget about small efficiencies, say about 97% of the 
 - Language style guides (PEP 8, Google style guides, etc.)
 - Big-O / DSA practice resources
 - OWASP Secure Coding Practices Quick Reference Guide
+- OpenTelemetry and CycloneDX / SBOM standards
 
 ---
 
