@@ -5,7 +5,7 @@ A curated collection of best practices for efficient programming, clean code, so
 **Start here**:
 - [quick-reference.md](quick-reference.md) — one-page checklist of the highest-leverage practices.
 - [synthesis-and-tradeoffs.md](synthesis-and-tradeoffs.md) — how the principles conflict, cognitive load, AI as an amplifier, and failure modes of over-application.
-- [deep-dive-index.md](deep-dive-index.md) — advanced methodology guides (contracts, chaos, reproducible builds, performance engineering).
+- [deep-dive-index.md](deep-dive-index.md) — advanced methodology guides (contracts, chaos, reproducible builds, performance engineering, threat modeling, incidents, API evolution).
 
 ## Core Principles
 
@@ -60,6 +60,7 @@ Donald Knuth: *"We should forget about small efficiencies, say about 97% of the 
 - [advanced-testing.md](advanced-testing.md) — Property-based testing, mutation testing, and contracts.
 - [security-checklist.md](security-checklist.md) — OWASP-aligned secure coding checklist.
 - [security-patterns.md](security-patterns.md) — Injection, XSS, CSRF, and access-control patterns with defenses.
+- [threat-modeling.md](threat-modeling.md) — STRIDE and structured threat identification.
 - [profiling-and-optimization.md](profiling-and-optimization.md) — Profiling tools, measurement process, and optimization guidance.
 - [performance-engineering.md](performance-engineering.md) — Objectives, baseline, profile, change, re-measure cycle.
 - [error-handling-and-logging.md](error-handling-and-logging.md) — Exceptions, structured logging, and context.
@@ -68,6 +69,7 @@ Donald Knuth: *"We should forget about small efficiencies, say about 97% of the 
 - [concurrency.md](concurrency.md) — Concurrency vs parallelism, models, and safety.
 - [database-practices.md](database-practices.md) — Indexing, query habits, and schema guidance.
 - [api-design.md](api-design.md) — Resource-oriented REST design, versioning, idempotency, and errors.
+- [api-evolution.md](api-evolution.md) — Additive vs breaking changes and deprecation.
 - [supply-chain-and-dependencies.md](supply-chain-and-dependencies.md) — Lockfiles, SBOMs, provenance, and continuous monitoring.
 - [reproducible-builds.md](reproducible-builds.md) — Lockfiles, immutable pins, hermetic builds, provenance.
 - [observability.md](observability.md) — Logs, metrics, traces, and the four golden signals.
@@ -81,6 +83,7 @@ Donald Knuth: *"We should forget about small efficiencies, say about 97% of the 
 - [feature-flags.md](feature-flags.md) — Types, practices, and cleanup.
 - [resilience-patterns.md](resilience-patterns.md) — Timeouts, retries, circuit breakers, bulkheads, and composition.
 - [chaos-engineering.md](chaos-engineering.md) — Failure injection, GameDays, and validating resilience.
+- [incident-response.md](incident-response.md) — Live response and blameless postmortems.
 - [technical-debt.md](technical-debt.md) — Inventory, prioritization by interest, and standing paydown budget.
 - [slos-and-error-budgets.md](slos-and-error-budgets.md) — SLIs, SLOs, error budgets, and burn-rate alerting.
 - [accessibility.md](accessibility.md) — WCAG-aligned practices for web interfaces.
