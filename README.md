@@ -2,6 +2,8 @@
 
 A curated collection of best practices for efficient programming, clean code, software development workflows, and performance optimization.
 
+**Start here**: [quick-reference.md](quick-reference.md) — one-page checklist of the highest-leverage practices.
+
 ## Core Principles
 
 - **KISS (Keep It Simple, Stupid)**: Prefer the simplest solution that works. Avoid unnecessary complexity.
@@ -45,10 +47,13 @@ Donald Knuth: *"We should forget about small efficiencies, say about 97% of the 
 
 ## Guides
 
+- [quick-reference.md](quick-reference.md) — One-page checklist.
 - [principles.md](principles.md) — Expanded explanations of the core principles.
+- [clean-code-examples.md](clean-code-examples.md) — Before/after examples of guard clauses, naming, and extraction.
 - [modern-practices.md](modern-practices.md) — AI-assisted development, architecture patterns, and CI/CD overview.
 - [testing-guide.md](testing-guide.md) — Testing pyramid, unit/integration/E2E, TDD, and anti-patterns.
 - [security-checklist.md](security-checklist.md) — OWASP-aligned secure coding checklist.
+- [security-patterns.md](security-patterns.md) — Injection, XSS, CSRF, and access-control patterns with defenses.
 - [profiling-and-optimization.md](profiling-and-optimization.md) — Profiling tools, measurement process, and optimization guidance.
 - [error-handling-and-logging.md](error-handling-and-logging.md) — Exceptions, structured logging, and context.
 - [code-review.md](code-review.md) — Practices for authors and reviewers, including AI-generated code.
@@ -64,6 +69,8 @@ Donald Knuth: *"We should forget about small efficiencies, say about 97% of the 
 - [delivery-metrics.md](delivery-metrics.md) — DORA metrics and how to improve delivery.
 - [code-quality-metrics.md](code-quality-metrics.md) — Cyclomatic complexity, maintainability index, and signals.
 - [event-driven.md](event-driven.md) — When to use events, outbox, idempotency, and pitfalls.
+- [git-workflow.md](git-workflow.md) — Trunk-based, GitHub Flow, GitFlow, and when to use each.
+- [feature-flags.md](feature-flags.md) — Types, practices, and cleanup.
 
 ## Resources
 
