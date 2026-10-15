@@ -5,6 +5,7 @@ A curated collection of best practices for efficient programming, clean code, so
 **Start here**:
 - [quick-reference.md](quick-reference.md) — one-page checklist of the highest-leverage practices.
 - [synthesis-and-tradeoffs.md](synthesis-and-tradeoffs.md) — how the principles conflict, cognitive load, AI as an amplifier, and failure modes of over-application.
+- [deep-dive-index.md](deep-dive-index.md) — advanced methodology guides (contracts, chaos, reproducible builds, performance engineering).
 
 ## Core Principles
 
@@ -51,6 +52,7 @@ Donald Knuth: *"We should forget about small efficiencies, say about 97% of the 
 
 - [quick-reference.md](quick-reference.md) — One-page checklist.
 - [synthesis-and-tradeoffs.md](synthesis-and-tradeoffs.md) — Trade-offs, cognitive load, AI amplification, and failure modes.
+- [deep-dive-index.md](deep-dive-index.md) — Index of advanced methodology guides.
 - [principles.md](principles.md) — Expanded explanations of the core principles.
 - [clean-code-examples.md](clean-code-examples.md) — Before/after examples of guard clauses, naming, and extraction.
 - [modern-practices.md](modern-practices.md) — AI-assisted development, architecture patterns, and CI/CD overview.
@@ -59,6 +61,7 @@ Donald Knuth: *"We should forget about small efficiencies, say about 97% of the 
 - [security-checklist.md](security-checklist.md) — OWASP-aligned secure coding checklist.
 - [security-patterns.md](security-patterns.md) — Injection, XSS, CSRF, and access-control patterns with defenses.
 - [profiling-and-optimization.md](profiling-and-optimization.md) — Profiling tools, measurement process, and optimization guidance.
+- [performance-engineering.md](performance-engineering.md) — Objectives, baseline, profile, change, re-measure cycle.
 - [error-handling-and-logging.md](error-handling-and-logging.md) — Exceptions, structured logging, and context.
 - [code-review.md](code-review.md) — Practices for authors and reviewers, including AI-generated code.
 - [refactoring.md](refactoring.md) — Common techniques and a safe process.
@@ -66,6 +69,7 @@ Donald Knuth: *"We should forget about small efficiencies, say about 97% of the 
 - [database-practices.md](database-practices.md) — Indexing, query habits, and schema guidance.
 - [api-design.md](api-design.md) — Resource-oriented REST design, versioning, idempotency, and errors.
 - [supply-chain-and-dependencies.md](supply-chain-and-dependencies.md) — Lockfiles, SBOMs, provenance, and continuous monitoring.
+- [reproducible-builds.md](reproducible-builds.md) — Lockfiles, immutable pins, hermetic builds, provenance.
 - [observability.md](observability.md) — Logs, metrics, traces, and the four golden signals.
 - [documentation.md](documentation.md) — READMEs, ADRs, and docs-as-code.
 - [caching.md](caching.md) — Layered caching, patterns, and invalidation.
@@ -76,10 +80,12 @@ Donald Knuth: *"We should forget about small efficiencies, say about 97% of the 
 - [git-workflow.md](git-workflow.md) — Trunk-based, GitHub Flow, GitFlow, and when to use each.
 - [feature-flags.md](feature-flags.md) — Types, practices, and cleanup.
 - [resilience-patterns.md](resilience-patterns.md) — Timeouts, retries, circuit breakers, bulkheads, and composition.
+- [chaos-engineering.md](chaos-engineering.md) — Failure injection, GameDays, and validating resilience.
 - [technical-debt.md](technical-debt.md) — Inventory, prioritization by interest, and standing paydown budget.
 - [slos-and-error-budgets.md](slos-and-error-budgets.md) — SLIs, SLOs, error budgets, and burn-rate alerting.
 - [accessibility.md](accessibility.md) — WCAG-aligned practices for web interfaces.
 - [configuration-and-secrets.md](configuration-and-secrets.md) — Environment config, secrets, and 12-factor guidance.
+- [design-by-contract.md](design-by-contract.md) — Preconditions, postconditions, invariants.
 
 ## Resources
 
@@ -90,7 +96,7 @@ Donald Knuth: *"We should forget about small efficiencies, say about 97% of the 
 - Language style guides (PEP 8, Google style guides, etc.)
 - Big-O / DSA practice resources
 - OWASP Secure Coding Practices Quick Reference Guide
-- OpenTelemetry, CycloneDX / SBOM, DORA research
+- OpenTelemetry, CycloneDX / SBOM, DORA research, SLSA, reproducible-builds.org
 - WCAG 2.1/2.2 and Google SRE Workbook
 
 ---
