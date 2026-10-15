@@ -5,7 +5,7 @@ A curated collection of best practices for efficient programming, clean code, so
 **Start here**:
 - [quick-reference.md](quick-reference.md) — one-page checklist of the highest-leverage practices.
 - [synthesis-and-tradeoffs.md](synthesis-and-tradeoffs.md) — how the principles conflict, cognitive load, AI as an amplifier, and failure modes of over-application.
-- [deep-dive-index.md](deep-dive-index.md) — advanced methodology guides (contracts, chaos, reproducible builds, performance engineering, threat modeling, incidents, API evolution).
+- [deep-dive-index.md](deep-dive-index.md) — advanced methodology guides.
 
 ## Core Principles
 
@@ -68,6 +68,7 @@ Donald Knuth: *"We should forget about small efficiencies, say about 97% of the 
 - [refactoring.md](refactoring.md) — Common techniques and a safe process.
 - [concurrency.md](concurrency.md) — Concurrency vs parallelism, models, and safety.
 - [database-practices.md](database-practices.md) — Indexing, query habits, and schema guidance.
+- [data-modeling.md](data-modeling.md) — Normalization, constraints, and when to denormalize.
 - [api-design.md](api-design.md) — Resource-oriented REST design, versioning, idempotency, and errors.
 - [api-evolution.md](api-evolution.md) — Additive vs breaking changes and deprecation.
 - [supply-chain-and-dependencies.md](supply-chain-and-dependencies.md) — Lockfiles, SBOMs, provenance, and continuous monitoring.
@@ -86,6 +87,8 @@ Donald Knuth: *"We should forget about small efficiencies, say about 97% of the 
 - [incident-response.md](incident-response.md) — Live response and blameless postmortems.
 - [technical-debt.md](technical-debt.md) — Inventory, prioritization by interest, and standing paydown budget.
 - [slos-and-error-budgets.md](slos-and-error-budgets.md) — SLIs, SLOs, error budgets, and burn-rate alerting.
+- [capacity-planning.md](capacity-planning.md) — Metrics, headroom, and projections.
+- [rate-limiting-and-backpressure.md](rate-limiting-and-backpressure.md) — Edge limits and internal slowdown signals.
 - [accessibility.md](accessibility.md) — WCAG-aligned practices for web interfaces.
 - [configuration-and-secrets.md](configuration-and-secrets.md) — Environment config, secrets, and 12-factor guidance.
 - [design-by-contract.md](design-by-contract.md) — Preconditions, postconditions, invariants.
