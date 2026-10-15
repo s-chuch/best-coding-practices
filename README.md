@@ -50,11 +50,17 @@ Donald Knuth: *"We should forget about small efficiencies, say about 97% of the 
 - [testing-guide.md](testing-guide.md) — Testing pyramid, unit/integration/E2E, TDD, and anti-patterns.
 - [security-checklist.md](security-checklist.md) — OWASP-aligned secure coding checklist.
 - [profiling-and-optimization.md](profiling-and-optimization.md) — Profiling tools, measurement process, and optimization guidance.
+- [error-handling-and-logging.md](error-handling-and-logging.md) — Exceptions, structured logging, and context.
+- [code-review.md](code-review.md) — Practices for authors and reviewers, including AI-generated code.
+- [refactoring.md](refactoring.md) — Common techniques and a safe process.
+- [concurrency.md](concurrency.md) — Concurrency vs parallelism, models, and safety.
+- [database-practices.md](database-practices.md) — Indexing, query habits, and schema guidance.
 
 ## Resources
 
 - *Clean Code* — Robert C. Martin
 - *Code Complete* — Steve McConnell
+- *Refactoring* — Martin Fowler
 - Language style guides (PEP 8, Google style guides, etc.)
 - Big-O / DSA practice resources
 - OWASP Secure Coding Practices Quick Reference Guide
