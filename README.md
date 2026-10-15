@@ -1,2 +1,55 @@
-# best-coding-practices
-Best practices for efficient programming, clean code, development workflows, and optimization. Curated principles, techniques, and references.
+# Best Coding Practices
+
+A curated collection of best practices for efficient programming, clean code, software development workflows, and performance optimization.
+
+## Core Principles
+
+- **KISS (Keep It Simple, Stupid)**: Prefer the simplest solution that works. Avoid unnecessary complexity.
+- **DRY (Don't Repeat Yourself)**: Extract repeated logic into reusable functions or modules.
+- **YAGNI (You Aren't Gonna Need It)**: Don't build features or abstractions until they're actually needed.
+- **Single Responsibility**: Each function, class, or module should do one clear thing.
+- **SOLID**: Especially Single Responsibility, Open/Closed, and Dependency Inversion for maintainable design.
+- **Clear naming**: Use descriptive names that convey intent. Follow language conventions.
+- **Guard clauses / early returns**: Flatten control flow and reduce nesting.
+
+> Always code as if the guy who ends up maintaining your code will be a violent psychopath who knows where you live.
+
+## Efficient Programming
+
+- Choose appropriate **algorithms and data structures** (understand Big-O).
+  - Hash maps/sets for average O(1) lookups.
+  - Prefer built-in libraries and language idioms (they're optimized).
+- Avoid unnecessary work: early exits, cache results, hoist loop-invariants.
+- Vectorize or use bulk operations when dealing with data (e.g., NumPy).
+- Write code that is clear for both humans and compilers/interpreters.
+
+## Optimization
+
+Donald Knuth: *"We should forget about small efficiencies, say about 97% of the time: premature optimization is the root of all evil. Yet we should not pass up our opportunities in that critical 3%."*
+
+1. Make it correct and clear first.
+2. Profile with realistic workloads to find real bottlenecks.
+3. Optimize algorithms and data structures before micro-optimizations.
+4. Measure before and after. Keep the change only if the benefit justifies any readability cost.
+5. Document non-obvious optimizations.
+
+## Development Workflow
+
+- Version control (Git) with small, atomic commits.
+- Code reviews on small pull requests.
+- CI/CD with automated tests and checks.
+- Linters, formatters, and type checkers.
+- Tests as a safety net for refactoring.
+- Document *why* (trade-offs, constraints), not just *what*.
+- Modular design and observability.
+
+## Resources
+
+- *Clean Code* — Robert C. Martin
+- *Code Complete* — Steve McConnell
+- Language style guides (PEP 8, Google style guides, etc.)
+- Big-O / DSA practice resources
+
+---
+
+Contributions and improvements welcome. Focus on timeless principles over trends.
