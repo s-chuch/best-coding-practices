@@ -77,6 +77,9 @@ Donald Knuth: *"We should forget about small efficiencies, say about 97% of the 
 - [feature-flags.md](feature-flags.md) — Types, practices, and cleanup.
 - [resilience-patterns.md](resilience-patterns.md) — Timeouts, retries, circuit breakers, bulkheads, and composition.
 - [technical-debt.md](technical-debt.md) — Inventory, prioritization by interest, and standing paydown budget.
+- [slos-and-error-budgets.md](slos-and-error-budgets.md) — SLIs, SLOs, error budgets, and burn-rate alerting.
+- [accessibility.md](accessibility.md) — WCAG-aligned practices for web interfaces.
+- [configuration-and-secrets.md](configuration-and-secrets.md) — Environment config, secrets, and 12-factor guidance.
 
 ## Resources
 
@@ -88,6 +91,7 @@ Donald Knuth: *"We should forget about small efficiencies, say about 97% of the 
 - Big-O / DSA practice resources
 - OWASP Secure Coding Practices Quick Reference Guide
 - OpenTelemetry, CycloneDX / SBOM, DORA research
+- WCAG 2.1/2.2 and Google SRE Workbook
 
 ---
 
