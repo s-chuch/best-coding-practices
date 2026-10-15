@@ -2,7 +2,9 @@
 
 A curated collection of best practices for efficient programming, clean code, software development workflows, and performance optimization.
 
-**Start here**: [quick-reference.md](quick-reference.md) — one-page checklist of the highest-leverage practices.
+**Start here**:
+- [quick-reference.md](quick-reference.md) — one-page checklist of the highest-leverage practices.
+- [synthesis-and-tradeoffs.md](synthesis-and-tradeoffs.md) — how the principles conflict, cognitive load, AI as an amplifier, and failure modes of over-application.
 
 ## Core Principles
 
@@ -48,6 +50,7 @@ Donald Knuth: *"We should forget about small efficiencies, say about 97% of the 
 ## Guides
 
 - [quick-reference.md](quick-reference.md) — One-page checklist.
+- [synthesis-and-tradeoffs.md](synthesis-and-tradeoffs.md) — Trade-offs, cognitive load, AI amplification, and failure modes.
 - [principles.md](principles.md) — Expanded explanations of the core principles.
 - [clean-code-examples.md](clean-code-examples.md) — Before/after examples of guard clauses, naming, and extraction.
 - [modern-practices.md](modern-practices.md) — AI-assisted development, architecture patterns, and CI/CD overview.
