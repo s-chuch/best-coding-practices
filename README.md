@@ -43,12 +43,18 @@ Donald Knuth: *"We should forget about small efficiencies, say about 97% of the 
 - Document *why* (trade-offs, constraints), not just *what*.
 - Modular design and observability.
 
+## Additional Guides
+
+- [principles.md](principles.md) — Expanded explanations of the core principles.
+- [modern-practices.md](modern-practices.md) — AI-assisted development, testing strategies, profiling tools, secure coding (OWASP), architecture patterns, and CI/CD.
+
 ## Resources
 
 - *Clean Code* — Robert C. Martin
 - *Code Complete* — Steve McConnell
 - Language style guides (PEP 8, Google style guides, etc.)
 - Big-O / DSA practice resources
+- OWASP Secure Coding Practices Quick Reference Guide
 
 ---
 
