@@ -59,16 +59,22 @@ Donald Knuth: *"We should forget about small efficiencies, say about 97% of the 
 - [supply-chain-and-dependencies.md](supply-chain-and-dependencies.md) — Lockfiles, SBOMs, provenance, and continuous monitoring.
 - [observability.md](observability.md) — Logs, metrics, traces, and the four golden signals.
 - [documentation.md](documentation.md) — READMEs, ADRs, and docs-as-code.
+- [caching.md](caching.md) — Layered caching, patterns, and invalidation.
+- [architecture-patterns.md](architecture-patterns.md) — Modular monolith, hexagonal/clean, DDD, and when to use them.
+- [delivery-metrics.md](delivery-metrics.md) — DORA metrics and how to improve delivery.
+- [code-quality-metrics.md](code-quality-metrics.md) — Cyclomatic complexity, maintainability index, and signals.
+- [event-driven.md](event-driven.md) — When to use events, outbox, idempotency, and pitfalls.
 
 ## Resources
 
 - *Clean Code* — Robert C. Martin
 - *Code Complete* — Steve McConnell
 - *Refactoring* — Martin Fowler
+- *Domain-Driven Design* — Eric Evans
 - Language style guides (PEP 8, Google style guides, etc.)
 - Big-O / DSA practice resources
 - OWASP Secure Coding Practices Quick Reference Guide
-- OpenTelemetry and CycloneDX / SBOM standards
+- OpenTelemetry, CycloneDX / SBOM, DORA research
 
 ---
 
